@@ -1,9 +1,9 @@
 import os
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7508753099:AAHLs4Xcn7e9N2tXQu9EjGWnAn4efFAMmAs")
+API_ID = int(os.environ.get("API_ID", "20786693"))
+API_HASH = os.environ.get("API_HASH", "6eebbb7d9f9825a2d200c034bfbb7102")
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002548704888"))
 AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
 DB_URL = os.environ.get("DB_URL", "")
 DB_NAME = os.environ.get("DB_NAME", "BroadcastBot")
