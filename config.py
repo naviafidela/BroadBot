@@ -1,4 +1,6 @@
 import os
+from urllib.parse import quote_plus
+
 
 username = quote_plus("naviafidela")
 password = quote_plus("xILLUSION@10")
